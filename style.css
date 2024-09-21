@@ -1,0 +1,55 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 0 100px;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.link {
+    display: flex;
+    background-color:white;
+    gap: 30px;
+    align-items: center;
+}
+
+.linkizinho {
+    color: rgb(99, 33, 206);
+    text-decoration: none;
+}
+
+#logo{
+    width: 10vh;
+}
+
+#imagem{
+    width: 510vh;
+}
+
+.main{
+    display: flex;
+    background-color: rgb(187, 144, 226);
+    justify-content: space-around;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    justify-content:center;
+}
+
+button{
+    padding:10px 20px;
+    border: none;
+    width: 60px;
+    padding: 0%;
+    background-color: rgb(84, 24, 153);
+    border-radius: 5%;
+    color: aliceblue;
+}
